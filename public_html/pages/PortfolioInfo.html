@@ -1,0 +1,105 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Resume Management System </title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+        <!--Style-sheet for Resume-->
+        <link href="../css/style.css" rel="stylesheet">
+        <link href="../css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" type="text/css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+
+        <!--jquery scripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+
+
+        <!--Scripts for Data Binding -->
+        <script src="js/knockout-3.2.0.js"></script>
+        <script src="js/knockout.mapping.js"></script>
+    </head>
+    <body>
+
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span></button> <a class="navbar-brand" href="#">Resume Management System</a>
+                </div> 
+                <div class="navbar-collapse collapse">
+
+                    <!--Main Navigation-->
+                    <ul class="nav navbar-nav" id="mainNavigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href='pages/NewPortfolio.html'>Create Portfolio</a></li>
+                        <li><a href='pages/portfolioInfo.html'>View/Edit Portfolio</a></li>
+                    </ul>
+                    <!--Logout Button-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <ul class="nav pull-right">
+                                <li> <a class="btn btn-default navbar-btn" href="../logout">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-->
+        </div><!--navbar-->
+<div id="mainContainer" class="container theme-showcase" style="width:900px">
+    <div class="panel panel-default">
+        <div class="panel-body">
+                    <h2>Paul Carroll Portfolio</h2>
+                    <div>
+                        <div>
+                            <h2>Projects</h2>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-striped" style="width:100%">
+                                <tr>
+                                    <td>Name:</td>
+                                    <td>Start Date</td>
+                                    <td>End Date</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML Mock-Up</td>
+                                    <td>01-20-2015</td>
+                                    <td>02-04-2015</td>
+                                </tr>
+                                <tr><td colspan="3">Summary</td></tr>
+                                <tr><td colspan="3">From initial meeting, create a HTML Mockup of the Portfolio website for the RMS.  This is the first 2-week sprint.</td></tr>             
+                            </table>
+                        </div>
+                         
+                        <div>
+                            <h2>Research Papers</h2>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <tr>
+                                    <td colspan="3">Title</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">Research Paper Title</td>
+                                </tr>
+                                <tr>
+                                    <td>Journal</td><td>Submission Date</td><td>Published Date</td>
+                                </tr>
+                                <tr>
+                                    <td>Wired</td><td>01-01-1999</td><td>01-01-1999</td>
+                                </tr>
+                                <tr><td colspan="3">Abstract</td></tr>
+                                <tr><td colspan="3">An abstract of the paper would appear here.</td></tr>
+                                <tr><td colspan="3">Download full article</td></tr>             
+                            </table>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    </body>
+</html>
